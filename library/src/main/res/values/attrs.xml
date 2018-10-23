@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextDrawable_TextAppearance">
+        <!-- Text color. -->
+        <attr name="android:textColor" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="android:textSize" />
+        <!-- Style (normal, bold, italic, bold|italic) for the text. -->
+        <attr name="android:textStyle" />
+        <!-- Weight for the font used in the TextView. -->
+        <attr name="android:textFontWeight" />
+        <!-- Typeface (normal, sans, serif, monospace) for the text. -->
+        <attr name="android:typeface" />
+        <!-- Font family (named by string or as a font resource reference) for the text. -->
+        <attr name="android:fontFamily" />
+        <!-- Color of the text selection highlight. -->
+        <!--<attr name="android:textColorHighlight" />-->
+        <!-- Color of the hint text. -->
+        <attr name="android:textColorHint" />
+        <!-- Color of the links. -->
+        <attr name="android:textColorLink" />
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr name="android:textAllCaps" />
+        <!-- Place a blurred shadow of text underneath the text, drawn with the
+             specified color. The text shadow produced does not interact with
+             properties on View that are responsible for real time shadows,
+             {@link android.R.styleable#View_elevation elevation} and
+             {@link android.R.styleable#View_translationZ translationZ}. -->
+        <attr name="android:shadowColor" />
+        <!-- Horizontal offset of the text shadow. -->
+        <attr name="android:shadowDx" />
+        <!-- Vertical offset of the text shadow. -->
+        <attr name="android:shadowDy" />
+        <!-- Blur radius of the text shadow. -->
+        <attr name="android:shadowRadius" />
+        <!-- Elegant text height, especially for less compacted complex script text. -->
+        <attr name="android:elegantTextHeight" />
+        <!-- Whether to respect the ascent and descent of the fallback fonts that are used in
+        displaying the text. When true, fallback fonts that end up getting used can increase
+        the ascent and descent of the lines that they are used on. -->
+        <attr name="android:fallbackLineSpacing" />
+        <!-- Text letter-spacing. -->
+        <attr name="android:letterSpacing" />
+        <!-- Font feature settings. -->
+        <attr name="android:fontFeatureSettings" />
+    </declare-styleable>
+
+    <declare-styleable name="TextDrawable">
+        <!-- Text to display. -->
+        <attr name="android:text" />
+        <!-- Base text color, typeface, size, and style. -->
+        <attr name="android:textAppearance" />
+
+        <!-- Text color. -->
+        <attr name="android:textColor" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="android:textSize" />
+        <!-- Style (normal, bold, italic, bold|italic) for the text. -->
+        <attr name="android:textStyle" />
+        <!-- Weight for the font used in the TextView. -->
+        <attr name="android:textFontWeight" />
+        <!-- Typeface (normal, sans, serif, monospace) for the text. -->
+        <attr name="android:typeface" />
+        <!-- Font family (named by string or as a font resource reference) for the text. -->
+        <attr name="android:fontFamily" />
+        <!-- Color of the text selection highlight. -->
+        <!--<attr name="android:textColorHighlight" />-->
+        <!-- Color of the hint text. -->
+        <attr name="android:textColorHint" />
+        <!-- Color of the links. -->
+        <attr name="android:textColorLink" />
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr name="android:textAllCaps" />
+        <!-- Place a blurred shadow of text underneath the text, drawn with the
+             specified color. The text shadow produced does not interact with
+             properties on View that are responsible for real time shadows,
+             {@link android.R.styleable#View_elevation elevation} and
+             {@link android.R.styleable#View_translationZ translationZ}. -->
+        <attr name="android:shadowColor" />
+        <!-- Horizontal offset of the text shadow. -->
+        <attr name="android:shadowDx" />
+        <!-- Vertical offset of the text shadow. -->
+        <attr name="android:shadowDy" />
+        <!-- Blur radius of the text shadow. -->
+        <attr name="android:shadowRadius" />
+        <!-- Elegant text height, especially for less compacted complex script text. -->
+        <attr name="android:elegantTextHeight" />
+        <!-- Whether to respect the ascent and descent of the fallback fonts that are used in
+        displaying the text. When true, fallback fonts that end up getting used can increase
+        the ascent and descent of the lines that they are used on. -->
+        <attr name="android:fallbackLineSpacing" />
+        <!-- Text letter-spacing. -->
+        <attr name="android:letterSpacing" />
+        <!-- Font feature settings. -->
+        <attr name="android:fontFeatureSettings" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TextViewAppearance">
+        <!-- Base text color, typeface, size, and style. -->
+        <attr name="android:textAppearance" />
+    </declare-styleable>
+
+
+</resources>
